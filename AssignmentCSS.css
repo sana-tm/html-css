@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.content{
+	max-width: 1024px;
+	margin: auto;
+	
+}
+table, td {
+  border: 3px solid black;
+  
+}
+h2,h3,p{
+  text-align:center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color:skyblue ;
+  height : 168px;
+}
+
+td {
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom:3px;
+  padding-left:30px;
+  padding-right:30px;
+  height : 45px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* Style the header */
+.header {
+  column-count 4;
+  background-color:lavender;
+  padding: 5px;
+  height:50px;  
+}
+
+h1{
+  text-align: left;
+
+}
+
+.mainheader {
+  background-color: lightblue;
+  padding: 20px;  
+  width: 200px;
+  align-text:center;  
+}
+
+.subheader {
+  background-color: paleturquoise;
+  padding: 5px; 
+  align-text:center;  
+}
+
+.SiteColumn{
+  column-count: 5;
+
+  
+}
+/* Create three equal columns that floats next to each other */
+.columnLeft {
+  float: left;
+  width: 70%;
+  padding: 10px;
+ background-color:kakhi;
+}
+
+.columnRight {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 918.5px;
+  background-color: palegoldenrod;  
+}
+
+.articlecolumn {
+  float: left;
+  width: 50%;
+  padding: 10px;  
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+.footer {
+  background-color:thistle;
+  padding: 10px;
+  text-align: center;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+   color: red;
+
+}
+
+#site {
+	text-align: left;
+}
+
+#para2 {
+  font-weight: bold;
+  color: blue;
+}
+
+ul{
+  font-weight: bold;
+}
+
+ol{
+  font-weight: thin;
+}
